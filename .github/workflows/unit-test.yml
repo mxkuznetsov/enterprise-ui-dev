@@ -19,8 +19,6 @@ jobs:
         name: Install modules from npm
       - run: npm test
         name: Run the tests
-
-jobs:
   build:
     runs-on: ubuntu-latest
 
